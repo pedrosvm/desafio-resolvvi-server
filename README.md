@@ -16,7 +16,6 @@ The goal was to create a server to respond to an external application that will 
 
 
 
-
 Requirements
 --
 
@@ -48,8 +47,17 @@ Start the database with the pre-made seeds:
 	bundle install
 	rails db: setup
 	rails s -p 3001
+	
+
+The seeds for the project contain:
+
+- The list of 27 Federative Units to provide for the user sign up
+- A list of 5 Lawyers (From first 5 Federative Units) to attend to legal requests from users
 
 That's it, your API server is now running!
+
+
+
 
 # LEIAME
 ===
@@ -97,7 +105,15 @@ Copie o repositório localmente:
 
 Inicie o banco de dados com as seeds pré-prontas:
 
+	bundle install
 	rails db:setup
 	rails s -p 3001
+
+	
+As seeds do projeto contém:
+
+- A lista com as 27 Unidades Federativas para o cadastro do usuário
+- Uma lista com 5 advogados (Dos 5 primeiros estados) para atender a requisições legais dos usuários
+
 
 É isso, seu servidor API já está executando!
