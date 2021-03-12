@@ -45,6 +45,7 @@ Copy the repository locally:
 
 Start the database with the pre-made seeds:
 
+	bundle install
 	rails db: setup
 	rails s -p 3001
 
