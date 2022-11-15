@@ -10,6 +10,7 @@ The goal was to create a server to respond to an external application that will 
 
 - User registration
 - User authentication
+Alterei o código
 - Registration of legal requests
 - List of requests already registered
 - Name of the lawyer available to the user at the time of the request
